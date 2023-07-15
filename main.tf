@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "ACG-Terraform-Labs-blah" 
+    organization = "ACG-Terraform-Labs-blah"
 
     workspaces {
       name = "demo-github-actions"
@@ -25,7 +25,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-
+# test
 
 resource "random_pet" "sg" {}
 
