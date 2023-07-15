@@ -25,7 +25,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-# test
+# testing out-of-date demo
 
 resource "random_pet" "sg" {}
 
